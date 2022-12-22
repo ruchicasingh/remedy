@@ -1,0 +1,14 @@
+<plugin>
+<name>APL.ARF.ATTACHMENTVALIDATION</name>
+<classname>com.apl.AttachmentValidation</classname>
+<pathelement type="location">C:/Program Files/BMC Software/ARSystem/pluginsvr/APLAttachmentValidationPlugin.jar</pathelement>
+<userDefined>
+<outputDir>C:/Temp/Attachments</outputDir>
+<virusCheck>true</virusCheck>
+<virusProgram>C:/Temp/VirusScan.bat</virusProgram>
+<virusParams>$FILENAME$</virusParams>
+<warningText>Some Text that the program will issue that you consider a warning</warningText>
+<errorText>Some Text that the program will issue that you consider an error</errorText>
+<errorNumber>525</errorNumber>
+</userDefined>
+</plugin>
